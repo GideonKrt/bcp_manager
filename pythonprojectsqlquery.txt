@@ -1,0 +1,21 @@
+Create new employee records:
+INSERT INTO 'table_name'(column_1,column_2,...) VALUES (value_1,value_2,...);
+
+Delete employee records:
+DELETE FROM 'table_name' WHERE EmployeeName='name_1';
+
+SELECT * FROM 'table_name' WHERE EmployeeID=value_1;
+
+SELECT * FROM 'table_name' WHERE OfficeLocation = 'Tampines';
+
+SELECT * FROM 'table_name' WHERE WorkingHours = '0900 to 1800'
+
+SELECT COUNT(EmployeeID) FROM 'table_name' WHERE OfficeLocation = 'Tampines' AND WorkingHours = '0900 to 1800'
+
+need employee ID? isit easier?
+should we create group name columns? so can select the groupname to show all records of employee in that grp easier?
+
+Update employee records:
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
